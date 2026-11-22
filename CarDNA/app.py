@@ -1,6 +1,8 @@
-import streamlit as st
+from pathlib import Path
+
 import pandas as pd
 import plotly.express as px
+import streamlit as st
 
 st.set_page_config(
     page_title="CarDNA",
@@ -12,7 +14,8 @@ st.title("CarDNA")
 st.caption("Automotive Engineering & Data Exploration")
 
 # Load dataset
-cars = pd.read_csv("data/processed/cars.csv")
+DATA_PATH = Path(__file__).resolve().parent / "data" / "processed" / "cars.csv"
+cars = pd.read_csv(DATA_PATH)
 
 if cars.empty:
     st.warning("Our vehicle database is empty.")

@@ -1,0 +1,40 @@
+{
+  "rows_in": 103,
+  "rows_out": 98,
+  "duplicates_merged": 5,
+  "verification_status": {
+    "unverified_single_source": 94,
+    "needs_review": 3,
+    "conflict_flagged": 1
+  },
+  "rows_with_flags": 13,
+  "missing_by_column": {
+    "make": 0,
+    "model": 0,
+    "generation": 0,
+    "trim": 96,
+    "market": 0,
+    "production_year": 0,
+    "engine_code": 98,
+    "engine_layout": 0,
+    "cylinders": 9,
+    "displacement_cc": 0,
+    "aspiration": 0,
+    "horsepower_hp": 0,
+    "horsepower_rpm": 98,
+    "torque_nm": 0,
+    "torque_rpm": 98,
+    "drivetrain": 0,
+    "transmission": 0,
+    "gear_count": 0,
+    "weight_kg": 2,
+    "acceleration_0_100": 15,
+    "top_speed_kmh": 9,
+    "source_url": 0,
+    "source_name": 0,
+    "verification_status": 0
+  },
+  "sources": [
+    "gor3a/vehicle-makes-models (upstream: autoevolution.com)"
+  ]
+}
